@@ -131,10 +131,196 @@ let snakes = {16:6,48:30,64:60,79:19,93:68,95:24,97:76};
 let ladders = {2:38,7:14,8:31,15:26,21:42,28:84,36:44,51:67,71:91,78:98};
 
 let questionBank = [
-  {q: "What is the capital of France?", choices:["Paris","Berlin","Rome","Madrid"], answer:0},
-  {q: "2+2=?", choices:["3","4","5","22"], answer:1},
-  {q: "Which language runs in a browser?", choices:["Python","C++","JavaScript","Java"], answer:2},
-  {q: "HTML stands for?", choices:["HyperText Markup Language","Home Tool Markup Language","Hyperlink Text Marking","None"], answer:0}
+  {
+    "q": "Which of the following is a common sign of a phishing email?",
+    "choices": [
+      "0. Email from a known contact with expected content",
+      "1. Spelling mistakes and urgent call to action",
+      "2. Secure domain and verified sender",
+      "3. Personalized greeting and correct grammar"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "When was DPDPA proposed in India?",
+    "choices": [
+      "0. June 2023",
+      "1. August 2023",
+      "2. June 2024",
+      "3. August 2024"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In which of the following cases does GDPR apply (choose the best one)?",
+    "choices": [
+      "0. People of all geographies",
+      "1. Indian organization holding or using European personal data",
+      "2. Every European Organization holding or using European personal data",
+      "3. Every organization around the world holding or using European personal data"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is a primary responsibility of the cloud service provider in a shared responsibility model?",
+    "choices": [
+      "0. Data encryption",
+      "1. Physical security of data centers",
+      "2. Managing user access",
+      "3. Software updates"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What do you mean by “Data principal” under DPDPA?",
+    "choices": [
+      "0. The person controlling the data processing",
+      "1. The entity processing the data",
+      "2. The user to whom the data refers to",
+      "3. The external security auditor"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Under the DPDPA, which of the following activity requires explicit consent of the user?",
+    "choices": [
+      "0. Data processing",
+      "1. Data collection",
+      "2. Data storage",
+      "3. Data anonymization"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the purpose of an Identity and Access Management (IAM) system in cloud security?",
+    "choices": [
+      "0. Managing cloud service pricing",
+      "1. Ensuring secure communication between services",
+      "2. Enabling users to securely access cloud resources",
+      "3. Automating cloud deployments"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which type of attack involves overwhelming a system with requests to disrupt service?",
+    "choices": [
+      "0. Phishing",
+      "1. SQL Injection",
+      "2. Denial of Service (DoS)",
+      "3. Cross-Site Scripting"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "In Cloud Computing, one common mechanism for providing the separation of data and services is?",
+    "choices": [
+      "0. Virtualization",
+      "1. Integration",
+      "2. Sensitization",
+      "3. All of the Above"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Facility provided by multi-user information system, which enables the user to override system or application access controls?",
+    "choices": [
+      "0. Authentication Bypass",
+      "1. Virtualization",
+      "2. Privileges Escalation",
+      "3. All of the Above"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "If a web application does not validate authorization of a user for direct references to restricted files. Which threat such a website is vulnerable?",
+    "choices": [
+      "0. Injection",
+      "1. CSRF",
+      "2. Insecure Direct Object References",
+      "3. XSS"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the primary purpose of data hashing?",
+    "choices": [
+      "0. To encrypt data for security by symmetric key",
+      "1. To convert sensitive data into an irreversible fixed-length value",
+      "2. To encrypt data for security by Asymmetric key",
+      "3. To compress data for storage efficiency"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does DPDPA stand for in the context of data privacy?",
+    "choices": [
+      "0. Data Protection and Data Privacy Act",
+      "1. Digital Protection and Data Privacy Act",
+      "2. Data Protection and Data Privacy Authority",
+      "3. Data Privacy and Data Protection Act"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the primary goal of data masking?",
+    "choices": [
+      "0. To remove data for security",
+      "1. To delete sensitive data during the testing or development",
+      "2. To ensure data privacy during testing or development",
+      "3. To generate synthetic data"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The DPDPA is primarily concerned with?",
+    "choices": [
+      "0. CyberSecurity and threat prevention",
+      "1. Protecting digital data and individuals' privacy rights",
+      "2. Regulating online advertising and threat prevention",
+      "3. Promoting digital marketing strategies"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary purpose of Content Security Policy (CSP) in web application security?",
+    "choices": [
+      "0. To ensure only trusted content is executed by the browser",
+      "1. To prevent cross-site request forgery (CSRF) attacks",
+      "2. To encrypt sensitive data transmitted over the network",
+      "3. To limit access control for different user roles within the application"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following best describes the relationship between a public key and a private key in asymmetric encryption?",
+    "choices": [
+      "0. The public key is used to encrypt data, and the private key is used to decrypt it",
+      "1. The private key is used to encrypt data, and the public key is used to decrypt it",
+      "2. Both keys are used for encryption, but one is faster than the other",
+      "3. Both keys are used for decryption, but one is more secure than the other"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which cloud security control focuses on safeguarding the access points into the network?",
+    "choices": [
+      "0. Data Masking",
+      "1. Perimeter Security",
+      "2. Elastic Compute Security",
+      "3. All of the Above"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary objective of a Privilege Escalation attack?",
+    "choices": [
+      "0. To gain access to sensitive data on the target system",
+      "1. To prevent users from accessing their accounts",
+      "2. To acquire higher-level access or permissions than initially granted",
+      "3. All of the Above"
+    ],
+    "answer": 2
+  }
 ];
 
 // STATE
