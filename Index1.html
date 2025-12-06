@@ -156,7 +156,7 @@ let questionBank = [
     "choices": [
       "0. People of all geographies",
       "1. Indian organization holding or using European personal data",
-      "2. Every European Organization holding or using European personal data",
+      "2. Every European Organization holding or using sensitive data",
       "3. Every organization around the world holding or using European personal data"
     ],
     "answer": 3
@@ -320,7 +320,688 @@ let questionBank = [
       "3. All of the Above"
     ],
     "answer": 2
+  }, 
+  {
+    "q": "Which security principle ensures that only authorized users can access specific data or resources?",
+    "choices": [
+      "0. Integrity",
+      "1. Availability",
+      "2. Confidentiality",
+      "3. Non-repudiation"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is the BEST example of multi-factor authentication (MFA)?",
+    "choices": [
+      "0. Password and PIN",
+      "1. Password and security question",
+      "2. Password and OTP via mobile app",
+      "3. Two different passwords"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "In a corporate environment, which control primarily helps prevent data exfiltration via email?",
+    "choices": [
+      "0. Data Loss Prevention (DLP) policies",
+      "1. Anti-malware on endpoints",
+      "2. Disk encryption on laptops",
+      "3. Network time protocol (NTP) configuration"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following best describes a zero-day vulnerability?",
+    "choices": [
+      "0. A vulnerability that is patched on the same day it is discovered",
+      "1. A vulnerability that is known to the vendor but not yet exploited",
+      "2. A vulnerability that is unknown to the vendor and has no patch",
+      "3. A vulnerability that only affects legacy systems"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which header can help mitigate clickjacking attacks in web applications?",
+    "choices": [
+      "0. Strict-Transport-Security",
+      "1. X-Frame-Options",
+      "2. Content-Encoding",
+      "3. Cache-Control"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In cloud security, which of the following is typically the customer's responsibility in an IaaS model?",
+    "choices": [
+      "0. Physical security of the data center",
+      "1. Hypervisor patching",
+      "2. Guest OS configuration and patching",
+      "3. Power and cooling of servers"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the main objective of network segmentation in a corporate environment?",
+    "choices": [
+      "0. To increase internet speed for all users",
+      "1. To isolate sensitive systems and limit lateral movement",
+      "2. To disable internal firewalls",
+      "3. To simplify IP addressing"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following attacks specifically targets the availability of a service?",
+    "choices": [
+      "0. Brute force attack",
+      "1. Denial of Service (DoS) attack",
+      "2. Man-in-the-Middle attack",
+      "3. Phishing attack"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary purpose of disk encryption on laptops used by employees?",
+    "choices": [
+      "0. To prevent malware infections",
+      "1. To protect data at rest if the device is lost or stolen",
+      "2. To improve system performance",
+      "3. To bypass login passwords"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following best describes the principle of least privilege?",
+    "choices": [
+      "0. Users should have access to all data to perform their tasks efficiently",
+      "1. Users should have only the minimum access needed to perform their job",
+      "2. Administrators should share accounts to avoid complexity",
+      "3. Access should be granted permanently once approved"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which protocol is commonly used to securely manage network devices such as routers and switches?",
+    "choices": [
+      "0. Telnet",
+      "1. FTP",
+      "2. SSH",
+      "3. HTTP"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which type of malware is specifically designed to demand payment from a victim by encrypting their data?",
+    "choices": [
+      "0. Trojan",
+      "1. Ransomware",
+      "2. Adware",
+      "3. Spyware"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary purpose of a SIEM (Security Information and Event Management) solution?",
+    "choices": [
+      "0. Managing user identities",
+      "1. Aggregating and correlating security logs for detection and response",
+      "2. Encrypting sensitive data",
+      "3. Automating software deployment"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which layer of the OSI model is most associated with TLS encryption?",
+    "choices": [
+      "0. Network layer",
+      "1. Transport layer",
+      "2. Data link layer",
+      "3. Physical layer"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In a web application, which of the following can help mitigate SQL injection vulnerabilities?",
+    "choices": [
+      "0. Using parameterized queries or prepared statements",
+      "1. Disabling HTTPS",
+      "2. Storing passwords in plain text",
+      "3. Relying only on client-side validation"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following is the BEST example of a strong password?",
+    "choices": [
+      "0. Password123",
+      "1. Welcome@123",
+      "2. P@55w0rd",
+      "3. A randomly generated 16-character string with letters, numbers, and symbols"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which attack involves an attacker secretly relaying and possibly altering communications between two parties who believe they are directly communicating?",
+    "choices": [
+      "0. Man-in-the-Middle attack",
+      "1. Brute force attack",
+      "2. Phishing attack",
+      "3. Dictionary attack"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which log source is MOST useful for detecting suspicious authentication attempts in an enterprise environment?",
+    "choices": [
+      "0. DHCP logs",
+      "1. Directory service or identity provider logs",
+      "2. DNS query logs",
+      "3. Printer logs"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In the context of secure software development, what does 'shift left' mean?",
+    "choices": [
+      "0. Moving security checks to the production environment only",
+      "1. Introducing security activities earlier in the development lifecycle",
+      "2. Reducing security testing in favor of faster releases",
+      "3. Delegating security testing entirely to QA"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following controls is MOST effective in preventing the reuse of compromised passwords?",
+    "choices": [
+      "0. Account lockout policy",
+      "1. Password history and prevention of recent password reuse",
+      "2. Screen lock timeout",
+      "3. Single sign-on (SSO)"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which protocol is commonly used to securely transfer files over an untrusted network?",
+    "choices": [
+      "0. FTP",
+      "1. HTTP",
+      "2. SFTP",
+      "3. Telnet"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is a common security risk associated with using public Wi-Fi networks without a VPN?",
+    "choices": [
+      "0. Increased battery consumption",
+      "1. Exposure to traffic sniffing and session hijacking",
+      "2. Faster bandwidth usage",
+      "3. Automatic OS updates"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In cloud environments, which practice helps reduce the attack surface of compute instances?",
+    "choices": [
+      "0. Allowing all inbound ports for flexibility",
+      "1. Using security groups and restricting inbound traffic to required ports",
+      "2. Disabling host-based firewalls",
+      "3. Sharing administrative credentials"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following best describes social engineering in cybersecurity?",
+    "choices": [
+      "0. Using encryption to protect data",
+      "1. Exploiting human psychology to gain unauthorized access or information",
+      "2. Using automated tools for vulnerability scanning",
+      "3. Creating social media accounts for marketing"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which type of vulnerability allows attackers to execute scripts in a victim's browser by injecting malicious code into a trusted website?",
+    "choices": [
+      "0. SQL Injection",
+      "1. Cross-Site Scripting (XSS)",
+      "2. Command Injection",
+      "3. Directory Traversal"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which control most directly helps ensure that critical security patches are deployed consistently across all servers?",
+    "choices": [
+      "0. Data classification policy",
+      "1. Centralized patch management system",
+      "2. Password rotation policy",
+      "3. VPN configuration"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is an example of technical security control?",
+    "choices": [
+      "0. Security awareness training",
+      "1. Firewall configuration",
+      "2. Background checks for employees",
+      "3. Security policy document"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary purpose of a vulnerability scan in an enterprise environment?",
+    "choices": [
+      "0. To exploit systems and gain unauthorized access",
+      "1. To identify known security weaknesses in systems and applications",
+      "2. To monitor employee productivity",
+      "3. To encrypt all network traffic"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following best describes spear phishing?",
+    "choices": [
+      "0. Mass emails sent to random recipients",
+      "1. Targeted phishing emails crafted for specific individuals or organizations",
+      "2. Phishing via SMS messages",
+      "3. Voice-based phishing calls"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In identity and access management, what is 'role-based access control' (RBAC)?",
+    "choices": [
+      "0. Granting access based on the user's seniority level only",
+      "1. Granting access based on the role or job function of the user",
+      "2. Granting access based on the location of the user",
+      "3. Granting access based on the device type only"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following helps ensure non-repudiation in digital transactions?",
+    "choices": [
+      "0. Symmetric key encryption alone",
+      "1. Digital signatures using asymmetric cryptography",
+      "2. Plain-text logging",
+      "3. Shared passwords"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which log type is MOST useful when investigating a suspected web application attack?",
+    "choices": [
+      "0. Physical access logs",
+      "1. Web server access and error logs",
+      "2. Printer queue logs",
+      "3. VoIP call logs"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is the BEST way to store user passwords in an application database?",
+    "choices": [
+      "0. In plain text for easy recovery",
+      "1. Encrypted with a symmetric key stored in the same database",
+      "2. Hashed with a strong algorithm and salted",
+      "3. Encoded with Base64"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following describes a 'brute force' attack?",
+    "choices": [
+      "0. Sending malicious attachments via email",
+      "1. Trying many possible passwords or keys until the correct one is found",
+      "2. Exploiting a software buffer to execute code",
+      "3. Redirecting users to fake websites"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In the context of endpoint security, what is application whitelisting?",
+    "choices": [
+      "0. Allowing all applications except known malicious ones",
+      "1. Allowing only approved applications to run on a system",
+      "2. Blocking all new applications permanently",
+      "3. Logging application usage without restrictions"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which configuration most helps prevent unauthorized access via Remote Desktop Protocol (RDP) over the internet?",
+    "choices": [
+      "0. Exposing RDP directly with a non-standard port",
+      "1. Using a VPN or jump host and restricting RDP to internal networks",
+      "2. Allowing RDP from all IPs for convenience",
+      "3. Disabling account lockout for RDP logins"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following best describes a security incident response plan?",
+    "choices": [
+      "0. A list of all security tools used by the organization",
+      "1. A documented process for detecting, responding to, and recovering from security incidents",
+      "2. A backup schedule for all servers",
+      "3. A user onboarding checklist"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the main risk of using the same local administrator password on all endpoints in an organization?",
+    "choices": [
+      "0. Increased patching complexity",
+      "1. Easier printer configuration",
+      "2. Lateral movement after a single compromise",
+      "3. Slower login times"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is an example of physical security control?",
+    "choices": [
+      "0. Intrusion detection system",
+      "1. Role-based access control",
+      "2. Security guards and access badges",
+      "3. Antivirus software"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the primary purpose of a business continuity plan (BCP)?",
+    "choices": [
+      "0. To define how to improve sales",
+      "1. To ensure critical business functions can continue during and after a disruption",
+      "2. To train users on social media usage",
+      "3. To schedule OS updates"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following password policies most improves resistance to credential stuffing attacks?",
+    "choices": [
+      "0. Minimum password length of 6 characters",
+      "1. Allowing password reuse across different systems",
+      "2. Enforcing unique passwords and MFA for all external logins",
+      "3. Allowing simple dictionary words"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which attack involves sending forged ARP messages on a local network to associate the attacker’s MAC address with the IP address of another host?",
+    "choices": [
+      "0. DNS poisoning",
+      "1. ARP spoofing",
+      "2. Port scanning",
+      "3. SQL injection"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the main purpose of network intrusion detection systems (IDS)?",
+    "choices": [
+      "0. To physically block malicious traffic automatically in all cases",
+      "1. To monitor network traffic and alert on suspicious patterns",
+      "2. To replace firewalls",
+      "3. To manage user accounts"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following best describes 'shadow IT'?",
+    "choices": [
+      "0. IT assets that are fully documented",
+      "1. Unauthorized or unmanaged systems and applications used without formal approval",
+      "2. Legacy systems that are still in production",
+      "3. IT infrastructure hosted only in the cloud"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In the context of email security, what does SPF primarily help prevent?",
+    "choices": [
+      "0. Email encryption",
+      "1. Sender address spoofing",
+      "2. Attachment size limits",
+      "3. Data loss via outbound emails"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following practices most helps secure API endpoints exposed over the internet?",
+    "choices": [
+      "0. Using only HTTP without authentication",
+      "1. Implementing strong authentication, authorization, and input validation",
+      "2. Allowing all IP addresses without rate limiting",
+      "3. Disabling TLS to reduce overhead"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which backup strategy provides the fastest recovery time for critical systems?",
+    "choices": [
+      "0. No backups, only redundancy",
+      "1. Full backups performed once per year",
+      "2. Regular full and incremental backups with tested restoration procedures",
+      "3. Manual file copies to user desktops"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following best helps detect data exfiltration over unusual network channels?",
+    "choices": [
+      "0. Disabling antivirus software",
+      "1. Monitoring outbound network traffic and setting DLP rules",
+      "2. Allowing unrestricted outbound connections",
+      "3. Using only local firewalls"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is a common sign of a compromised endpoint?",
+    "choices": [
+      "0. Regular OS updates",
+      "1. Unexpected processes, high CPU usage, and unknown outbound connections",
+      "2. Scheduled antivirus scans",
+      "3. Normal login activity"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is 'credential stuffing'?",
+    "choices": [
+      "0. Guessing passwords randomly",
+      "1. Using leaked username-password pairs from one service to access other services",
+      "2. Harvesting credentials via keyloggers only",
+      "3. Storing passwords in password managers"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In a SOC, which metric indicates how quickly analysts respond to detected security events?",
+    "choices": [
+      "0. Mean Time to Detect (MTTD)",
+      "1. Mean Time to Respond (MTTR)",
+      "2. Recovery Time Objective (RTO)",
+      "3. Recovery Point Objective (RPO)"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is MOST important when granting third-party vendors access to internal systems?",
+    "choices": [
+      "0. Providing shared admin accounts for simplicity",
+      "1. Enforcing least privilege, MFA, and contractual security requirements",
+      "2. Allowing permanent access without review",
+      "3. Relying only on vendor self-attestation"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which type of test is performed without prior knowledge to the internal IT team, simulating a real attacker as closely as possible?",
+    "choices": [
+      "0. Vulnerability scan",
+      "1. White-box penetration test",
+      "2. Black-box penetration test or red team exercise",
+      "3. Code review"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the main security benefit of using a reverse proxy in front of web applications?",
+    "choices": [
+      "0. Eliminating the need for SSL certificates",
+      "1. Hiding backend servers, centralizing TLS, and enabling security filtering",
+      "2. Allowing direct database access from the internet",
+      "3. Storing user credentials"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following MOST helps reduce risks from outdated and unused user accounts?",
+    "choices": [
+      "0. Allowing accounts to remain indefinitely",
+      "1. Periodic user access reviews and timely deprovisioning",
+      "2. Granting all users admin access",
+      "3. Only changing passwords"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the key difference between authentication and authorization?",
+    "choices": [
+      "0. Authentication verifies who the user is, authorization defines what they can access",
+      "1. Authentication manages logs, authorization manages backups",
+      "2. Authorization happens before authentication",
+      "3. They are identical concepts"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following is a common security risk of using default configurations on network devices?",
+    "choices": [
+      "0. Improved performance",
+      "1. Presence of default credentials and open services",
+      "2. Stronger encryption settings by default",
+      "3. Automatic configuration backups"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which type of malware disguises itself as legitimate software to trick users into executing it?",
+    "choices": [
+      "0. Worm",
+      "1. Rootkit",
+      "2. Trojan horse",
+      "3. Botnet"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which control helps ensure that changes to critical systems are tracked and properly reviewed?",
+    "choices": [
+      "0. Change management and approval process",
+      "1. Guest Wi-Fi access",
+      "2. Screen saver timeouts",
+      "3. Default printer settings"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In an incident response lifecycle, which phase focuses on learning and improving from past incidents?",
+    "choices": [
+      "0. Identification",
+      "1. Containment",
+      "2. Eradication",
+      "3. Lessons learned or post-incident activity"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following can help mitigate risks from stolen access tokens in web applications?",
+    "choices": [
+      "0. Long-lived tokens with no revocation",
+      "1. Implementing short-lived tokens and refresh tokens with proper revocation",
+      "2. Storing tokens in insecure local files",
+      "3. Sending tokens over unencrypted HTTP"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which statement best describes a 'risk' in cybersecurity?",
+    "choices": [
+      "0. The presence of a firewall",
+      "1. The potential that a threat will exploit a vulnerability and cause impact",
+      "2. A list of security controls",
+      "3. The number of security tools deployed"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the primary purpose of data classification in an organization?",
+    "choices": [
+      "0. To assign IP addresses to servers",
+      "1. To prioritize protection efforts based on data sensitivity and business impact",
+      "2. To define password history",
+      "3. To manage physical office locations"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is an example of a detective control?",
+    "choices": [
+      "0. Firewall blocking rules",
+      "1. Encryption of data at rest",
+      "2. Security event monitoring and alerting",
+      "3. Security awareness training"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which practice MOST reduces the impact of a successful phishing attack that steals valid credentials?",
+    "choices": [
+      "0. Reusing passwords across systems",
+      "1. Enforcing multi-factor authentication for critical applications",
+      "2. Allowing unlimited login attempts",
+      "3. Disabling logging"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In the context of web security, what is 'input validation' mainly used for?",
+    "choices": [
+      "0. Ensuring all data is encrypted at rest",
+      "1. Ensuring that data provided by users conforms to expected formats and constraints",
+      "2. Ensuring data is compressed",
+      "3. Managing user sessions"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which characteristic is MOST important for a good security log?",
+    "choices": [
+      "0. Minimal information to save storage",
+      "1. Accurate timestamps, relevant details, and integrity protection",
+      "2. Only high-level summaries",
+      "3. Logs stored only on local machines"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which approach helps limit damage if an attacker compromises one microservice in a microservices-based application?",
+    "choices": [
+      "0. Using a single shared database account for all services",
+      "1. Implementing network segmentation and least privilege between services",
+      "2. Allowing all services full access to each other",
+      "3. Disabling all authentication between services"
+    ],
+    "answer": 1
   }
+
 ];
 
 // STATE
